@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'pricewhisperapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2149235DFF7146C98DC300859637B1C9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1097133A0CF944DFB966CA8AD4962204 }}
           package: .
