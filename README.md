@@ -67,6 +67,8 @@ Este projeto utiliza a API do CNPJá para validação de CNPJs durante o cadastr
 - Verificação da existência e situação cadastral da empresa
 - Garantia de dados consistentes no cadastro de empresas
 
+Obs.: API Key já está inserida no código fonte do projeto.
+
 ### Uso da API CNPJá
 
 A validação acontece automaticamente ao cadastrar uma nova empresa através do endpoint POST /api/Empresa. O sistema irá:
@@ -76,8 +78,6 @@ A validação acontece automaticamente ao cadastrar uma nova empresa através do
 3. Permitir o cadastro apenas de empresas com situação regular
 
 Se o CNPJ for inválido ou não for encontrado, a API retornará um erro 400 (Bad Request).
-
-Obs.: API Key já está inserida no código fonte do projeto.
 
 ## Exemplos de Testes de Requisições
 
