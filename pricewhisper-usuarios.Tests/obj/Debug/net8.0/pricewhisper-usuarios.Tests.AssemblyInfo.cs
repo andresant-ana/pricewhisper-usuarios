@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pricewhisper-usuarios.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d11afcb4e91f6c4f39c2c6dcaf1be2e14589d85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e381a09a7f6f84d166f40e7be2dd200f8352dec5")]
 [assembly: System.Reflection.AssemblyProductAttribute("pricewhisper-usuarios.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pricewhisper-usuarios.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

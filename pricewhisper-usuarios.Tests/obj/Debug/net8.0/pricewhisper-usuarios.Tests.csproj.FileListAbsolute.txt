@@ -434,3 +434,4 @@ C:\Users\andre\OneDrive\Área de Trabalho\AAAA\pricewhisper-usuarios.Tests\obj\D
 C:\Users\andre\OneDrive\Área de Trabalho\AAAA\pricewhisper-usuarios.Tests\obj\Debug\net8.0\pricewhisper-usuarios.Tests.pdb
 C:\Users\andre\OneDrive\Área de Trabalho\AAAA\pricewhisper-usuarios.Tests\obj\Debug\net8.0\pricewhisper-usuarios.Tests.genruntimeconfig.cache
 C:\Users\andre\OneDrive\Área de Trabalho\AAAA\pricewhisper-usuarios.Tests\obj\Debug\net8.0\ref\pricewhisper-usuarios.Tests.dll
+C:\Users\andre\Source\Repos\pricewhisper-usuarios\pricewhisper-usuarios.Tests\obj\Debug\net8.0\pricewhisper-usuarios.Tests.sourcelink.json
