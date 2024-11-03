@@ -77,6 +77,8 @@ A validação acontece automaticamente ao cadastrar uma nova empresa através do
 
 Se o CNPJ for inválido ou não for encontrado, a API retornará um erro 400 (Bad Request).
 
+Obs.: API Key já está inserida no código fonte do projeto.
+
 ## Exemplos de Testes de Requisições
 
 ### Usuário
