@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = pricewhisper_usuarios.Tests
-build_property.ProjectDir = C:\Users\andre\Source\Repos\pricewhisper-usuarios\pricewhisper-usuarios.Tests\
+build_property.ProjectDir = C:\Users\andre\WORKSPACE\pricewhisper-usuarios\pricewhisper-usuarios.Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

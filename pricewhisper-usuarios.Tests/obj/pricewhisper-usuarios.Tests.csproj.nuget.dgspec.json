@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj": {}
+    "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj": {
+    "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj",
         "projectName": "pricewhisper-usuarios.API",
-        "projectPath": "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj",
+        "projectPath": "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\obj\\",
+        "outputPath": "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj": {
+    "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj",
         "projectName": "pricewhisper-usuarios.Tests",
-        "projectPath": "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj",
+        "projectPath": "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\obj\\",
+        "outputPath": "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,8 +121,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj": {
-                "projectPath": "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj"
+              "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj": {
+                "projectPath": "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.API\\pricewhisper-usuarios.API.csproj"
               }
             }
           }

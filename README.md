@@ -16,6 +16,46 @@ e também pela maior velocidade e eficiência no desenvolvimento do projeto.
 ## Design Patterns
 Utilizamos o design pattern de Singleton para o gerenciador de configurações do projeto, e também para o gerenciador de banco de dados.
 
+## Princípios de Clean Code e SOLID Aplicados
+
+Neste projeto, adotamos diversas práticas de Clean Code e princípios SOLID para garantir um código limpo, de fácil manutenção e escalável. A seguir, destacamos os principais conceitos aplicados:
+
+### Clean Code
+
+1. **Nomenclatura Significativa**
+   - Os nomes das classes, métodos e variáveis são claros e descritivos, facilitando a compreensão do propósito de cada elemento no código.
+
+2. **Responsabilidade Única**
+   - Cada classe possui uma única responsabilidade, alinhando-se ao princípio de responsabilidade única do Clean Code e do SOLID.
+
+3. **Funções Curtas e Objetivas**
+   - Métodos são mantidos curtos e focados em uma única tarefa, aumentando a legibilidade e facilitando testes unitários.
+
+4. **Comentários Justificados**
+   - Comentários são utilizados apenas quando necessário para explicar decisões complexas, evitando redundância com o código.
+
+5. **Formato Consistente**
+   - A formatação do código segue padrões consistentes, utilizando indentação adequada e espaçamento para melhorar a legibilidade.
+
+### Princípios SOLID
+
+1. **Single Responsibility Principle (SRP)**
+   - Cada classe tem uma única responsabilidade. Por exemplo, os repositórios gerenciam a persistência de dados, enquanto os serviços contêm a lógica de negócios.
+
+2. **Open/Closed Principle (OCP)**
+   - As classes estão abertas para extensão, mas fechadas para modificação. Utilizamos abstrações (interfaces) para permitir a extensão das funcionalidades sem alterar o código existente.
+
+3. **Liskov Substitution Principle (LSP)**
+   - As classes derivadas podem substituir suas classes base sem alterar a corretude do programa. As implementações das interfaces garantem compatibilidade e substituição adequada.
+
+4. **Interface Segregation Principle (ISP)**
+   - Interfaces específicas são preferidas em vez de interfaces generalistas. Isso evita que as classes implementem métodos que não utilizarão.
+
+5. **Dependency Inversion Principle (DIP)**
+   - Dependemos de abstrações (interfaces) em vez de implementações concretas. Isso é evidenciado pelo uso de injeção de dependências para repositórios e serviços, promovendo baixo acoplamento e facilitando testes unitários.
+
+Estas práticas asseguram que o código seja robusto, eficiente e de fácil manutenção, alinhando-se às melhores práticas de desenvolvimento de software.
+
 ## Instruções
 Clone o projeto em sua máquina e na pasta raiz do projeto execute o comando 'dotnet run'.
 

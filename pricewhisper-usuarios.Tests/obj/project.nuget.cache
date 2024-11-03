@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yW84km3Lh2M=",
+  "dgSpecHash": "1C7ifOx5gFs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Source\\Repos\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj",
+  "projectFilePath": "C:\\Users\\andre\\WORKSPACE\\pricewhisper-usuarios\\pricewhisper-usuarios.Tests\\pricewhisper-usuarios.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
