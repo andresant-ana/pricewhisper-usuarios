@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pricewhisper-usuarios.API", "pricewhisper-usuarios.API.csproj", "{95F0A80A-A8EE-4934-819D-72575E306A16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pricewhisper-usuarios.Tests", "..\pricewhisper-usuarios.Tests\pricewhisper-usuarios.Tests.csproj", "{BC0874AA-574A-4DF4-AADC-2D65C729B3AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pricewhisper-usuarios.Tests", "..\pricewhisper-usuarios.Tests\pricewhisper-usuarios.Tests.csproj", "{BC0874AA-574A-4DF4-AADC-2D65C729B3AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
