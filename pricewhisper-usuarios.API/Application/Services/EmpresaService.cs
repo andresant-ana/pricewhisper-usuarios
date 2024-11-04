@@ -68,7 +68,6 @@ namespace Application.Services
 
         public async Task AddAsync(EmpresaDto empresaDto)
         {
-            // Validar o CNPJ usando a CNPJaService
             var cnpjResponse = await _cnpjaService.ConsultarCNPJ(empresaDto.CNPJ);
             if (cnpjResponse == null || cnpjResponse.Company == null)
                 throw new Exception("CNPJ inválido ou não encontrado.");
@@ -82,7 +81,6 @@ namespace Application.Services
 
             await _empresaRepository.AddAsync(empresa);
 
-            // Atualizar o ID no DTO após salvar no banco de dados
             empresaDto.EmpresaId = empresa.EmpresaId;
         }
 
@@ -92,7 +90,6 @@ namespace Application.Services
             if (empresa == null)
                 throw new Exception("Empresa não encontrada.");
 
-            // Validar o CNPJ usando a CNPJaService
             var cnpjResponse = await _cnpjaService.ConsultarCNPJ(empresaDto.CNPJ);
             if (cnpjResponse == null || cnpjResponse.Company == null)
                 throw new Exception("CNPJ inválido ou não encontrado.");

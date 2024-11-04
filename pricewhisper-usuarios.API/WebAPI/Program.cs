@@ -12,7 +12,6 @@ using System.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar serviços
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -35,7 +34,6 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 
-    // Incluir comentários XML
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     if (File.Exists(xmlPath))
@@ -47,14 +45,12 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<OracleDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("OracleConnection")));
 
-// Registro de repositórios e serviços
 builder.Services.AddScoped<IEmpresaRepository, EmpresaRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IEmpresaService, EmpresaService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<ICNPJaService, CNPJaService>();
 
-// Configuração do CNPJaService com HttpClient
 builder.Services.AddHttpClient<ICNPJaService, CNPJaService>()
     .ConfigureHttpClient(client =>
     {
@@ -64,7 +60,6 @@ builder.Services.AddHttpClient<ICNPJaService, CNPJaService>()
 
 var app = builder.Build();
 
-// Configure o pipeline HTTP
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

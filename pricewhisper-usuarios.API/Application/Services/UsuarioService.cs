@@ -21,7 +21,6 @@ namespace Application.Services
         {
             var usuarios = await _usuarioRepository.GetAllAsync();
 
-            // Mapeamento após materializar os dados na memória
             var usuariosDto = usuarios.Select(u => new UsuarioDto
             {
                 UsuarioId = u.UsuarioId,
@@ -68,7 +67,6 @@ namespace Application.Services
 
             await _usuarioRepository.AddAsync(usuario);
 
-            // Atualizar o UsuarioId e RazaoSocialEmpresa no DTO
             usuarioDto.UsuarioId = usuario.UsuarioId;
             usuarioDto.RazaoSocialEmpresa = empresa.RazaoSocial;
         }
@@ -82,7 +80,6 @@ namespace Application.Services
             usuario.Nome = usuarioDto.Nome;
             usuario.NomeUsuario = usuarioDto.NomeUsuario;
 
-            // Atualiza a senha somente se for fornecida
             if (!string.IsNullOrEmpty(usuarioDto.Senha))
             {
                 usuario.Senha = usuarioDto.Senha;
